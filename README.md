@@ -37,5 +37,5 @@ SunDial/
 
 ---
 **Created:** 2025-09-12  
-**Author:** Josh Kinnear
+**Author:** Josh Kinnear  
 **Platform:** iOS 17+ / SwiftUI / WidgetKit  
