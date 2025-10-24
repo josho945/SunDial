@@ -1,5 +1,7 @@
 # SunDial — Solar Arc Widget
 
+![Demo](Example.png)
+
 SunDial is a SwiftUI + WidgetKit project that displays live solar cycle data — including sunrise, sunset, and the current position of the sun throughout the day.  
 
 I saw a concept on Threads that mocked something like this up, and wanted to try and implement it. Took a lot longer than expected.
