@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		034FC0CC2EAB6C19004ECBE5 /* Solar in Frameworks */ = {isa = PBXBuildFile; productRef = 034FC0CB2EAB6C19004ECBE5 /* Solar */; };
+		034FC0CE2EAB6C28004ECBE5 /* Solar in Frameworks */ = {isa = PBXBuildFile; productRef = 034FC0CD2EAB6C28004ECBE5 /* Solar */; };
+		035287192E73DFFA004F1856 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035287182E73DFFA004F1856 /* WidgetKit.framework */; };
+		0352871B2E73DFFA004F1856 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0352871A2E73DFFA004F1856 /* SwiftUI.framework */; };
+		0352872C2E73DFFC004F1856 /* SunDialWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 035287162E73DFFA004F1856 /* SunDialWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		035286F62E73DE4F004F1856 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 035286E02E73DE4E004F1856 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 035286E72E73DE4E004F1856;
+			remoteInfo = SunDial;
+		};
+		035287002E73DE4F004F1856 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 035286E02E73DE4E004F1856 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 035286E72E73DE4E004F1856;
+			remoteInfo = SunDial;
+		};
+		0352872A2E73DFFC004F1856 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 035286E02E73DE4E004F1856 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 035287152E73DFFA004F1856;
+			remoteInfo = SunDialWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		035287312E73DFFC004F1856 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0352872C2E73DFFC004F1856 /* SunDialWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		035286E82E73DE4E004F1856 /* SunDial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunDial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		035286F52E73DE4F004F1856 /* SunDialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunDialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		035286FF2E73DE4F004F1856 /* SunDialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunDialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		035287162E73DFFA004F1856 /* SunDialWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SunDialWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		035287182E73DFFA004F1856 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		0352871A2E73DFFA004F1856 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0352872D2E73DFFC004F1856 /* Exceptions for "SunDialWidget" folder in "SunDialWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 035287152E73DFFA004F1856 /* SunDialWidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		035286EA2E73DE4E004F1856 /* SunDial */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SunDial;
+			sourceTree = "<group>";
+		};
+		035286F82E73DE4F004F1856 /* SunDialTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SunDialTests;
+			sourceTree = "<group>";
+		};
+		035287022E73DE4F004F1856 /* SunDialUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SunDialUITests;
+			sourceTree = "<group>";
+		};
+		0352871C2E73DFFA004F1856 /* SunDialWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0352872D2E73DFFC004F1856 /* Exceptions for "SunDialWidget" folder in "SunDialWidgetExtension" target */,
+			);
+			path = SunDialWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		035286E52E73DE4E004F1856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034FC0CC2EAB6C19004ECBE5 /* Solar in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035286F22E73DE4F004F1856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035286FC2E73DE4F004F1856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035287132E73DFFA004F1856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034FC0CE2EAB6C28004ECBE5 /* Solar in Frameworks */,
+				0352871B2E73DFFA004F1856 /* SwiftUI.framework in Frameworks */,
+				035287192E73DFFA004F1856 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		035286DF2E73DE4E004F1856 = {
+			isa = PBXGroup;
+			children = (
+				035286EA2E73DE4E004F1856 /* SunDial */,
+				035286F82E73DE4F004F1856 /* SunDialTests */,
+				035287022E73DE4F004F1856 /* SunDialUITests */,
+				0352871C2E73DFFA004F1856 /* SunDialWidget */,
+				035287172E73DFFA004F1856 /* Frameworks */,
+				035286E92E73DE4E004F1856 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		035286E92E73DE4E004F1856 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				035286E82E73DE4E004F1856 /* SunDial.app */,
+				035286F52E73DE4F004F1856 /* SunDialTests.xctest */,
+				035286FF2E73DE4F004F1856 /* SunDialUITests.xctest */,
+				035287162E73DFFA004F1856 /* SunDialWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		035287172E73DFFA004F1856 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				035287182E73DFFA004F1856 /* WidgetKit.framework */,
+				0352871A2E73DFFA004F1856 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		035286E72E73DE4E004F1856 /* SunDial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 035287092E73DE4F004F1856 /* Build configuration list for PBXNativeTarget "SunDial" */;
+			buildPhases = (
+				035286E42E73DE4E004F1856 /* Sources */,
+				035286E52E73DE4E004F1856 /* Frameworks */,
+				035286E62E73DE4E004F1856 /* Resources */,
+				035287312E73DFFC004F1856 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0352872B2E73DFFC004F1856 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				035286EA2E73DE4E004F1856 /* SunDial */,
+			);
+			name = SunDial;
+			packageProductDependencies = (
+				034FC0CB2EAB6C19004ECBE5 /* Solar */,
+			);
+			productName = SunDial;
+			productReference = 035286E82E73DE4E004F1856 /* SunDial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		035286F42E73DE4F004F1856 /* SunDialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0352870C2E73DE4F004F1856 /* Build configuration list for PBXNativeTarget "SunDialTests" */;
+			buildPhases = (
+				035286F12E73DE4F004F1856 /* Sources */,
+				035286F22E73DE4F004F1856 /* Frameworks */,
+				035286F32E73DE4F004F1856 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				035286F72E73DE4F004F1856 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				035286F82E73DE4F004F1856 /* SunDialTests */,
+			);
+			name = SunDialTests;
+			packageProductDependencies = (
+			);
+			productName = SunDialTests;
+			productReference = 035286F52E73DE4F004F1856 /* SunDialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		035286FE2E73DE4F004F1856 /* SunDialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0352870F2E73DE4F004F1856 /* Build configuration list for PBXNativeTarget "SunDialUITests" */;
+			buildPhases = (
+				035286FB2E73DE4F004F1856 /* Sources */,
+				035286FC2E73DE4F004F1856 /* Frameworks */,
+				035286FD2E73DE4F004F1856 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				035287012E73DE4F004F1856 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				035287022E73DE4F004F1856 /* SunDialUITests */,
+			);
+			name = SunDialUITests;
+			packageProductDependencies = (
+			);
+			productName = SunDialUITests;
+			productReference = 035286FF2E73DE4F004F1856 /* SunDialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		035287152E73DFFA004F1856 /* SunDialWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0352872E2E73DFFC004F1856 /* Build configuration list for PBXNativeTarget "SunDialWidgetExtension" */;
+			buildPhases = (
+				035287122E73DFFA004F1856 /* Sources */,
+				035287132E73DFFA004F1856 /* Frameworks */,
+				035287142E73DFFA004F1856 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0352871C2E73DFFA004F1856 /* SunDialWidget */,
+			);
+			name = SunDialWidgetExtension;
+			packageProductDependencies = (
+				034FC0CD2EAB6C28004ECBE5 /* Solar */,
+			);
+			productName = SunDialWidgetExtension;
+			productReference = 035287162E73DFFA004F1856 /* SunDialWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		035286E02E73DE4E004F1856 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					035286E72E73DE4E004F1856 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					035286F42E73DE4F004F1856 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 035286E72E73DE4E004F1856;
+					};
+					035286FE2E73DE4F004F1856 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 035286E72E73DE4E004F1856;
+					};
+					035287152E73DFFA004F1856 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 035286E32E73DE4E004F1856 /* Build configuration list for PBXProject "SunDial" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 035286DF2E73DE4E004F1856;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				034FC0CA2EAB6C19004ECBE5 /* XCLocalSwiftPackageReference "../../../Downloads/Solar-master" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 035286E92E73DE4E004F1856 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				035286E72E73DE4E004F1856 /* SunDial */,
+				035286F42E73DE4F004F1856 /* SunDialTests */,
+				035286FE2E73DE4F004F1856 /* SunDialUITests */,
+				035287152E73DFFA004F1856 /* SunDialWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		035286E62E73DE4E004F1856 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035286F32E73DE4F004F1856 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035286FD2E73DE4F004F1856 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035287142E73DFFA004F1856 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		035286E42E73DE4E004F1856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035286F12E73DE4F004F1856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035286FB2E73DE4F004F1856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035287122E73DFFA004F1856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		035286F72E73DE4F004F1856 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 035286E72E73DE4E004F1856 /* SunDial */;
+			targetProxy = 035286F62E73DE4F004F1856 /* PBXContainerItemProxy */;
+		};
+		035287012E73DE4F004F1856 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 035286E72E73DE4E004F1856 /* SunDial */;
+			targetProxy = 035287002E73DE4F004F1856 /* PBXContainerItemProxy */;
+		};
+		0352872B2E73DFFC004F1856 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 035287152E73DFFA004F1856 /* SunDialWidgetExtension */;
+			targetProxy = 0352872A2E73DFFC004F1856 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		035287072E73DE4F004F1856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = SMPC494N66;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		035287082E73DE4F004F1856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = SMPC494N66;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0352870A2E73DE4F004F1856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SMPC494N66;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "\"SunDial needs location access to calculate accurate sunrise and sunset times for your area.\"";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jk945.SunDial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0352870B2E73DE4F004F1856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SMPC494N66;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "\"SunDial needs location access to calculate accurate sunrise and sunset times for your area.\"";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jk945.SunDial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0352870D2E73DE4F004F1856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SMPC494N66;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jk945.SunDialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunDial.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SunDial";
+			};
+			name = Debug;
+		};
+		0352870E2E73DE4F004F1856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SMPC494N66;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jk945.SunDialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunDial.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SunDial";
+			};
+			name = Release;
+		};
+		035287102E73DE4F004F1856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SMPC494N66;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jk945.SunDialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SunDial;
+			};
+			name = Debug;
+		};
+		035287112E73DE4F004F1856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SMPC494N66;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jk945.SunDialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SunDial;
+			};
+			name = Release;
+		};
+		0352872F2E73DFFC004F1856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SMPC494N66;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SunDialWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SunDialWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jk945.SunDial.SunDialWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		035287302E73DFFC004F1856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SMPC494N66;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SunDialWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SunDialWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jk945.SunDial.SunDialWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		035286E32E73DE4E004F1856 /* Build configuration list for PBXProject "SunDial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035287072E73DE4F004F1856 /* Debug */,
+				035287082E73DE4F004F1856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		035287092E73DE4F004F1856 /* Build configuration list for PBXNativeTarget "SunDial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0352870A2E73DE4F004F1856 /* Debug */,
+				0352870B2E73DE4F004F1856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0352870C2E73DE4F004F1856 /* Build configuration list for PBXNativeTarget "SunDialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0352870D2E73DE4F004F1856 /* Debug */,
+				0352870E2E73DE4F004F1856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0352870F2E73DE4F004F1856 /* Build configuration list for PBXNativeTarget "SunDialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035287102E73DE4F004F1856 /* Debug */,
+				035287112E73DE4F004F1856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0352872E2E73DFFC004F1856 /* Build configuration list for PBXNativeTarget "SunDialWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0352872F2E73DFFC004F1856 /* Debug */,
+				035287302E73DFFC004F1856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		034FC0CA2EAB6C19004ECBE5 /* XCLocalSwiftPackageReference "../../../Downloads/Solar-master" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../../Downloads/Solar-master";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		034FC0CB2EAB6C19004ECBE5 /* Solar */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Solar;
+		};
+		034FC0CD2EAB6C28004ECBE5 /* Solar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 034FC0CA2EAB6C19004ECBE5 /* XCLocalSwiftPackageReference "../../../Downloads/Solar-master" */;
+			productName = Solar;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 035286E02E73DE4E004F1856 /* Project object */;
+}
